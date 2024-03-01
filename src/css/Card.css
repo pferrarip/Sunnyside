@@ -1,0 +1,55 @@
+.card-content {
+    width: 50%;
+    height: 29rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 6.5rem;
+    gap: 2rem;
+  }
+  #tt {
+    font-size: 1.8rem;
+    font-family: "Fraunces", sans-serif;
+    font-weight: 800;
+    color: hsl(212, 27%, 19%);
+    padding-right: 10rem;
+  }
+  #sub {
+    font-size: 1.1rem;
+    line-height: 28px;
+    font-family: "Barlow", sans-serif;
+    color: hsl(232, 10%, 55%);
+    font-weight: 500;
+    letter-spacing: 0.5px;
+  }
+  #learn {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: hsl(212, 27%, 19%);
+    font-family: "Fraunces", sans-serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+  }
+  @media (max-width: 768px) {
+    .card-content {
+      width: 100%;
+      padding: 4rem;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    #tt {
+      font-size: 1.4rem;
+      width: 100%;
+      padding-right: 0rem;
+    }
+    #sub {
+      font-size: 0.9rem;
+      line-height: 22px;
+    }
+    #learn{
+      font-size: 0.8rem;
+      letter-spacing: 1px;
+    }
+  }
+  

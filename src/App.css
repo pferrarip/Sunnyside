@@ -1,0 +1,35 @@
+.App {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  background-image: url(./assets/desktop/background.jpg);
+  background-position: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  gap: 3rem;
+}
+#title{
+  font-size: 3rem;
+  font-family: "Fraunces",sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  color: white;
+}
+#arrow{
+  cursor: pointer;
+  
+}
+@media(max-width:768px){
+  .App{
+    background-image: url(../src/assets/mobile/backmoba.jpg);
+    background-position: center;
+    padding:2rem;
+    gap: 2rem;
+  }
+  #title{
+    font-size: 2rem;
+    text-align: center;
+  }
+}

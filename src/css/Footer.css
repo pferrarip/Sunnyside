@@ -1,0 +1,89 @@
+.footer-container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.carrossel{
+    width: 100%;
+    height: 25rem;
+    display: flex;
+}
+.left{
+    width: 50%;
+    height: 25rem;
+    display: flex;
+  }
+  .right{
+    width: 50%;
+    height: 25rem;
+    display: flex;
+   }
+  .first-image{
+    width: 22rem;
+    background-image: url(../assets/desktop/milk.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .second-image{
+    width: 22rem;
+    background-image: url(../assets/desktop/orangeee.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .third-image{
+    width: 22rem;
+    background-image: url(../assets/desktop/icecream.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  .fourth-image{
+    width: 22rem;
+    background-image: url(../assets/desktop/cubes.jpg);
+    background-position: center;
+    background-size: cover;
+  }  
+  .footer{
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(144, 212, 197);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  .row-links{
+    display: flex;
+    gap: 2rem;
+  }
+  #foo{
+    text-decoration: none;
+    color: hsl(168, 34%, 41%);
+    font-family: "Barlow",sans-serif;
+  }
+  .social-row{
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+  }
+  @media(max-width:768px){
+    .carrossel{
+      flex-direction: column;
+    }
+    .left{
+      width: 100%;
+    }
+    .right{
+      width: 100%;
+    }
+    .footer{
+      padding-top: 1.5rem;
+      justify-content: start;
+      gap: 1.5rem;
+    }
+    #foo{
+      font-size: 1rem;
+    }
+  }
