@@ -3,7 +3,7 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 2rem;
     padding: 2rem;
     text-align: center;
     align-items: center;
@@ -31,6 +31,18 @@
     font-family: "Barlow",sans-serif;
     font-size: 1rem;
     font-weight: 400;
+  }
+  @media(min-width:1920px){
+    #bio{
+      font-size: 1.2rem;
+      line-height:25px;
+    }
+    #names{
+      font-size: 1.5rem;
+    }
+    #funcs{
+      font-size: 1.2rem ;
+    }
   }
   @media (max-width: 768px) {
     .card-authors {

@@ -24,6 +24,14 @@
     justify-content: center;
     align-items: center;
   }
+  @media(min-width:1920px){
+      .bottom-container{
+         min-height: 80vh;
+      }
+    #authors-title{
+        font-size: 1.8rem;
+    }
+  }
   @media(max-width:768px){
     #authors-title{
         font-size: 1rem;

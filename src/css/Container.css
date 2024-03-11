@@ -90,6 +90,35 @@
     color: hsl(198, 62%, 26%);
     line-height: 23px;
 }
+@media(min-width:1920px){
+    .img1{
+        height: 40rem;
+    }
+    .img2{
+        height: 40rem;
+    }
+    .imgleft{
+        height: 40rem;
+
+    }
+    .imgright{
+        height: 40rem;
+    }
+    #photograph{
+        font-size:2rem;
+    }
+    #photograph-content{
+        font-size: 1.2rem;;
+        padding: 0rem 6rem 0rem 6rem;
+    }
+    #graphic{
+        font-size:2rem;
+    }
+    #graphic-content{
+        font-size: 1.2rem;;
+        padding: 0rem 6rem 0rem 6rem;
+    }
+}
 @media(max-width:768px){
     
     .egg-row{

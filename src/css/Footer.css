@@ -68,6 +68,32 @@
         justify-content: center;
         align-items: center;
   }
+  @media(max-width:1920px){
+    .left{
+      height: 30rem;
+    }
+    .right{
+      height: 30rem;
+    }
+     .first-image{
+       width: 30rem;
+     }
+     .second-image{
+       width: 30rem;
+     }
+     .third-image{
+       width: 30rem;
+     }
+     .fourth-image{
+       width: 30rem;
+     }
+     .carrossel{
+       height: 30rem;
+     }
+     .footer{
+       height:50vh;
+     }
+  }
   @media(max-width:768px){
     .carrossel{
       flex-direction: column;
